@@ -1,3 +1,4 @@
+
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
@@ -6,10 +7,9 @@ const firebaseConfig = {
   authDomain: "seating-chart-ae2de.firebaseapp.com",
   databaseURL: "https://seating-chart-ae2de-default-rtdb.firebaseio.com",
   projectId: "seating-chart-ae2de",
-  storageBucket: "seating-chart-ae2de.firebasestorage.app",
+  storageBucket: "seating-chart-ae2de.appspot.com",
   messagingSenderId: "697557708624",
   appId: "1:697557708624:web:03aef9d9d09856d758c655",
-  measurementId: "G-HR999ZHEQ7"
 };
 
 const app = initializeApp(firebaseConfig);
