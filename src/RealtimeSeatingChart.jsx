@@ -1,2 +1,7 @@
+import { useState, useEffect } from "react";
+import { ref, set, onValue } from "firebase/database";
+import { db } from "./firebase-config";
 
-<canvas code already inserted earlier>
+export default function RealtimeSeatingChart() {
+  ...
+}
